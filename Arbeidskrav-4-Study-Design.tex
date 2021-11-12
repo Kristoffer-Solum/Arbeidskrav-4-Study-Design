@@ -1,0 +1,269 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Study Design},
+  pdfauthor={Kristoffer Solum},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\title{Study Design}
+\author{Kristoffer Solum}
+\date{12 11 2021}
+
+\begin{document}
+\maketitle
+
+\hypertarget{study-design}{%
+\section{Study Design}\label{study-design}}
+
+\hypertarget{inntroduksjon}{%
+\subsection{Inntroduksjon}\label{inntroduksjon}}
+
+\hypertarget{metode}{%
+\subsection{Metode}\label{metode}}
+
+Formålet i alle studiene handler i hovedsak om å undersøke sammenhengen
+mellom intensitet ved kortintervaller og hor mye tid det gir over en
+gitt \% av vo2 maks. studien til (\textbf{thevenet2007og?}) Wakefield
+and Glaister (2009) svarergodt på hverandre hvor begge sammenligner
+effekten av treningsintensitet på tid over 95\% av VO2 maks, Thevenet et
+al. (2007a) har en hypotese som tilsier at en økning i hastigheten fra
+100\% av farten ved vo2maks til 115\% av farten ved vo2maks under
+intervallene ville også gi en økning i tiden over 90- og 95\% av
+vo2maks. Mens Wakefield and Glaister (2009) har en motsatt hypotese om
+at tid på eller over 95\% av vo2maks ville være lenger ved løp på 105\%
+av farten ved vo2 maks enn ved 115\% av farten ved vo2 maks. Studiene
+til V. L. Billat et al. (2000) og V. Billat et al. (2001) til forskjell
+intervaller hvor de ser på hvordan man kan fremkalle mest tid ved 100\%
+av vo2maks, deriblant hvilken intensitet og intervallform som er best
+for dette. Mens Dupont et al. (2002) passer bra inn med alle de andre
+artiklene over og ser på både tid ved vo2maks og tiden over 90\% av
+vo2maks ved kortintervaller 15/15.
+
+Alle studiene presenterte en hypotese. Hypotesen de kommer med er
+begrunnet av tidligere forskingsdata. Som et eksempel begrunner
+Wakefield and Glaister (2009) sin hypotese ved å referere til data i
+studien til Thevenet et al. (2007a). Gjennom å presentere denne dataen
+fra tidligere forskning skapes det en logisk linje gjennom
+introduksjonen til hypotesen. Dette blir gjort på en spesielt god måte i
+artikkelen til Thevenet et al. (2007a) hvor artikkelen starter bredt med
+å fortelle om vo2maks, og at det er ansett som en viktig faktor innenfor
+langdistanseløping. Dette blir bygget opp ved å referere til tidligere
+artikler som har kommet frem til dette. Videre blir det beskrevet
+treningsmetoder for å forbedre vo2maks, hvor mye tid på en høy \% av
+vo2maks blir beskrevet som en viktig faktor spesielt tid over 90- og
+95\% av vo2maks. Etter dette beveger introduksjonen i artikkelen seg
+over på å fortelle om intervalltrening og spesielt kortintervaller og
+dens effekt på å kunne arbeide på en høy \% av vo2 maks. artikkelen
+forteller videre om andre forskingsartikler som har sett på
+kortintervaller og tid over 90 og 95\% men avdekker samtidig
+kunnskapshull i disse artiklene. Dette gjør at Thevenet et al. (2007a)
+formulerer en hypotese basert på informasjonen om vo2maks og
+kortintervaller som skal forsøke å tette disse kunnskapshullene som ble
+beskrevet i introduksjonen.\\
+Dermed funker denne introduksjonen som en trakt som starter med å
+fortelle om et tema bredt, og smaler seg etter hvert inn på mindre
+temaer og spesifikke problemer den ønsker å svare på, samtidig som den
+har en rød trå eller logisk linje gjennom introduksjonen og frem til
+hypotesen. De andre artiklene følger i likhet denne samme strukturen i
+sin innledning som leder til en hypotese.
+
+Siden alle studiene på forhånd hadde spesifisert en primær hypotese
+stemmer dette godt med designet i en clinical tril. En god regel for
+spessielt clinical trils, er å etablere flere hypoteser på forhånd som
+gir mening, men å spesifisere en hypotese som den primære, denne må
+kunne bli statistisk testet uten argument om at hyoptesen må endres
+(Hulley, 2013 s53). mer viktig vil en primær hypotese hjelpe studien å
+fokusere på dens hovedoppgaver og bidra til en ren base for
+kalkulasjoner av utvalgsstørrelsen (Hulley, 2013 s53).
+
+Alle studiene hadde en god beskrivelse av forsøkspersonene som var med i
+testen. De viste alle frem med standardavvik antall deltakere, kjønn,
+alder, høyde og vekt. Alle studiene fortalte også at alle deltakere var
+godt trente personer, at de hadde meldt seg som frivillige og at de var
+fullt informert over test prosedyren og hadde underskrevet på dette,
+foresatte underskrev for deltakere under 18 år. Alderen på deltakerne i
+de forskjellige studiene varierte mye hvor Thevenet et al. (2007b) hadde
+den yngste snittalderen på 16,1± 1 mens V. Billat et al. (2001) hadde
+den eldste snittalderen på 51±6. Ingen av disse to studiene forsvarte
+hvorfor de valgte å teste disse aldersgruppene på henholdsvis yngre og
+litt eldre utøvere.\\
+I testen til Thevenet et al. (2007a) ble det forklart at deltakeren alle
+var rekruttert fra samme treningsklubb, og i studiene til både Dupont et
+al. (2002) og Wakefield and Glaister (2009) var deltakeren
+idrettsstudenter. I de to resterende artiklene var det ikke oppgitt hvor
+deltakerne var rekruttert fra V. Billat et al. (2001) og V. L. Billat et
+al. (2000) . Alle studiene hadde forholdsvis få deltakere med mellom 7-9
+personer, og ingen av studien hadde noen forklaring på hvorfor de hadde
+det antallet deltakere. Dette er litt underlig ettersom en studie med
+flere deltakere ville gitt en større statistisk styrke, fordi det da vil
+være fler observasjoner som påvirker gjennomsnittet.\\
+I alle studiene ble det brukt p-verdier som en teststyrke hvor
+signifikantnivået var P\textless0,05. ingen av studiene brukte andre
+tester som t- test eller effektstørrelse som kunne ha bidratt til å
+styrke resultatet. Hvordan testene ble gjennomført var svært
+forskjellige Wakefield and Glaister (2009) gjennomførte testen på mølle
+med 1\% stigning mens resten av testene ble gjennomført på løpe bane.
+Alle studiene hadde intervaller som en av testene, her var alle
+kortintervaller med mellom 15- 30sek arbeidstid. Før intervallene
+gjennomførte alle studiene vo2maks test, som ble bestemmende for farten
+de skulle løpe på under intervallene. Dupont et al. (2002) hadde den
+raskeste hastigheten med 15/15s intervaller på 140\% av farten ved
+vo2maks, mens Thevenet et al. (2007a) hadde intervaller med tregest
+hastighet 30/30sek med 100\% av farten ved vo2maks. Under alle testene
+ble gassutveksling målt, dette innebar variabler som ventilasjon,
+pustefrekvens, oksygen, og co2. I tillegg målte alle studiene laktat
+mens V. Billat et al. (2001) og V. L. Billat et al. (2000) var de eneste
+som ikke målte hjertefrekvens. Av disse målingene var oksygenmålingen
+den eneste variabelen som direkte svarte på hypotesen i alle studiene.
+
+Alle studiene adresserte hypotesen deres i konklusjonen, og diskuterte
+rundt resultatene de fikk. I studiene til V. L. Billat et al. (2000) og
+Thevenet et al. (2007a) foreslo studiene at ytterligere forskning
+krevdes for å kunne fastslå resultatet helt. Dette var fordi forskingen
+deres ikke så på langtidsvirkningen av intervallene og det mente de var
+nødvendig for å kunne fastslå om den typen intervall som prestere best i
+deres studie faktisk ville være den beste for utvikling av
+kardiovaskulære systemer over tid. I tillegg ~var det interessant å se
+at alle studiene antatt Dupont et al. (2002) kun snakket om sine egne
+resultater i konklusjonen. Mens Dupont et al. (2002) refererte til andre
+studier i sin egen konklusjon.
+
+\hypertarget{refferanser}{%
+\subsection{Refferanser}\label{refferanser}}
+
+Hulley, S. B. (2013). \emph{Designing clinical research} (4th ed.).
+
+(V. L. Billat et al. 2000; V. Billat et al. 2001; Dupont et al. 2002;
+Thevenet et al. 2007a; Wakefield and Glaister 2009)
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\hypertarget{ref-billat2001}{}%
+Billat, V., J. Slawinksi, V. Bocquet, P. Chassaing, A. Demarle, and J.
+Koralsztein. 2001. {``Very Short (15 s - 15 s) Interval-Training Around
+the Critical Velocity Allows Middle-Aged Runners to Maintain V{{}}O
+{\textsubscript{2}} Max for 14 Minutes.''} \emph{International Journal
+of Sports Medicine} 22 (03): 201--8.
+\url{https://doi.org/10.1055/s-2001-16389}.
+
+\leavevmode\hypertarget{ref-billat2000}{}%
+Billat, Véronique L., Jean Slawinski, Valery Bocquet, Alexandre Demarle,
+Laurent Lafitte, Patrick Chassaing, and Jean-Pierre Koralsztein. 2000.
+{``Intermittent Runs at the Velocity Associated with Maximal Oxygen
+Uptake Enables Subjects to Remain at Maximal Oxygen Uptake for a Longer
+Time Than Intense but Submaximal Runs.''} \emph{European Journal of
+Applied Physiology} 81 (3): 188--96.
+\url{https://doi.org/10.1007/s004210050029}.
+
+\leavevmode\hypertarget{ref-dupont2002}{}%
+Dupont, Grégory, Nicolas Blondel, Ghislaine Lensel, and Serge Berthoin.
+2002. {``Critical Velocity and Time Spent at a High Level of for Short
+Intermittent Runs at Supramaximal Velocities.''} \emph{Canadian Journal
+of Applied Physiology} 27 (2): 103--15.
+\url{https://doi.org/10.1139/h02-008}.
+
+\leavevmode\hypertarget{ref-thevenet2007a}{}%
+Thevenet, Delphine, Magaly Tardieu, Hassane Zouhal, Christophe Jacob,
+Ben Abderraouf Abderrahman, and Jacques Prioux. 2007b. {``Influence of
+Exercise Intensity on Time Spent at High Percentage of Maximal Oxygen
+Uptake During an Intermittent Session in Young Endurance-Trained
+Athletes.''} \emph{European Journal of Applied Physiology} 102 (1):
+19--26. \url{https://doi.org/10.1007/s00421-007-0540-6}.
+
+\leavevmode\hypertarget{ref-thevenet2007}{}%
+---------. 2007a. {``Influence of Exercise Intensity on Time Spent at
+High Percentage of Maximal Oxygen Uptake During an Intermittent Session
+in Young Endurance-Trained Athletes.''} \emph{European Journal of
+Applied Physiology} 102 (1): 19--26.
+\url{https://doi.org/10.1007/s00421-007-0540-6}.
+
+\leavevmode\hypertarget{ref-wakefield2009}{}%
+Wakefield, Benjamin R, and Mark Glaister. 2009. {``Influence of
+Work-Interval Intensity and Duration on Time Spent at a High Percentage
+of
+JOURNAL/Jscr/04.03/00124278-200912000-00017/Ov0312{\_}5/v/2021-02-09t093646z/r/Image-Png
+O2max During Intermittent Supramaximal Exercise.''} \emph{Journal of
+Strength and Conditioning Research} 23 (9): 2548--54.
+\url{https://doi.org/10.1519/JSC.0b013e3181bc19b1}.
+
+\end{CSLReferences}
+
+\end{document}
